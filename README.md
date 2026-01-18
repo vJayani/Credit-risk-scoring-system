@@ -49,6 +49,14 @@ This dataset includes:
 > The application dataset already contains **aggregated financial, behavioral, and bureau-derived features**.  
 > Due to hackathon time constraints, raw bureau and transaction-level datasets were not merged, but the pipeline is designed to support them in future iterations.
 
+## Data Access
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
+
+You can download the dataset from Kaggle:
+- Home Credit Default Risk: https://www.kaggle.com/c/home-credit-default-risk/data
+
+After downloading, place `application_train.csv` inside the `data/` folder.
 ## End-to-End Workflow
 
 Data Ingestion
@@ -125,10 +133,11 @@ Insights & Visualization
 
 ## Repository Structure
 
+credit-risk-scoring-system
 ├── Credit Risk Scoring System.ipynb
 ├── README.md
 └── data
-└── application_train.csv
+    └── .gitkeep
 
 ## How to Run
 
